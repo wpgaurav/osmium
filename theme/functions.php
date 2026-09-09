@@ -90,6 +90,46 @@ function osmium_register_pattern_categories() {
 add_action( 'init', 'osmium_register_pattern_categories' );
 
 /**
+ * Make a horizontally scrolling table reachable from the keyboard.
+ *
+ * A wide table scrolls inside its own box on narrow screens. A region that
+ * scrolls but cannot be focused is unreachable without a mouse, which fails
+ * WCAG 2.1.1. Adding tabindex puts the box in the tab order; when the table
+ * carries a caption, that caption becomes the region's accessible name so a
+ * screen reader announces what the box holds.
+ *
+ * @since 0.1.0
+ *
+ * @param string $block_content Rendered block HTML.
+ * @return string Rendered block HTML with the scroll box made focusable.
+ */
+function osmium_make_tables_focusable( $block_content ) {
+	if ( false === strpos( $block_content, 'wp-block-table' ) ) {
+		return $block_content;
+	}
+
+	$processor = new WP_HTML_Tag_Processor( $block_content );
+
+	if ( ! $processor->next_tag( array( 'tag_name' => 'FIGURE' ) ) ) {
+		return $block_content;
+	}
+
+	$processor->set_attribute( 'tabindex', '0' );
+
+	// Use the caption as the accessible name when the table has one.
+	if ( preg_match( '#<figcaption[^>]*>(.*?)</figcaption>#s', $block_content, $caption ) ) {
+		$label = trim( wp_strip_all_tags( $caption[1] ) );
+		if ( '' !== $label ) {
+			$processor->set_attribute( 'role', 'group' );
+			$processor->set_attribute( 'aria-label', $label );
+		}
+	}
+
+	return $processor->get_updated_html();
+}
+add_filter( 'render_block_core/table', 'osmium_make_tables_focusable' );
+
+/**
  * Attach per-block stylesheets.
  *
  * Each file loads only on pages where its block actually renders, which keeps
