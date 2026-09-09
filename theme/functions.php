@@ -73,13 +73,25 @@ function osmium_register_pattern_categories() {
 			'label'       => _x( 'Osmium: Pages', 'Block pattern category', 'osmium' ),
 			'description' => __( 'Full page layouts you can drop into a new page and edit.', 'osmium' ),
 		),
+		'osmium-hero'    => array(
+			'label'       => _x( 'Osmium: Openers', 'Block pattern category', 'osmium' ),
+			'description' => __( 'The first thing on a page: statements, splits, and signup bands.', 'osmium' ),
+		),
+		'osmium-content' => array(
+			'label'       => _x( 'Osmium: Content', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Sections for building out a page: post lists, features, quotes, FAQs, and calls to action.', 'osmium' ),
+		),
 		'osmium-review'  => array(
 			'label'       => _x( 'Osmium: Review kit', 'Block pattern category', 'osmium' ),
 			'description' => __( 'Verdicts, pros and cons, comparison tables, and product calls to action.', 'osmium' ),
 		),
-		'osmium-content' => array(
-			'label'       => _x( 'Osmium: Content', 'Block pattern category', 'osmium' ),
-			'description' => __( 'Sections for building out a page: heroes, post lists, FAQs, and calls to action.', 'osmium' ),
+		'osmium-headers' => array(
+			'label'       => _x( 'Osmium: Headers', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Site headers you can swap into the header template part.', 'osmium' ),
+		),
+		'osmium-footers' => array(
+			'label'       => _x( 'Osmium: Footers', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Site footers you can swap into the footer template part.', 'osmium' ),
 		),
 	);
 

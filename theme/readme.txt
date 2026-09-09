@@ -4,7 +4,7 @@ Contributors: wpgaurav
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, wide-blocks
@@ -54,6 +54,11 @@ Yes. Open the Site Editor, go to Styles then Typography, and pick any font from 
 Open the block inserter, choose Patterns, and look for the Osmium: Review kit category.
 
 == Changelog ==
+
+= 0.2.0 =
+* Added 15 patterns and two categories. Headers and footers now have five each, and there is a new Openers group with five ways to start a page.
+* New sections: a numbers row, a three-step explainer, a heading-beside-text section, a callout note for inside articles, and a keep-reading block for the end of one.
+* Patterns are grouped under Osmium: Openers, Content, Review kit, Pages, Headers, and Footers, so they are findable without hunting.
 
 = 0.1.0 =
 * Initial foundation: theme.json design tokens, templates for index, single, and page, header, footer, post meta, sidebar, and comments parts, the first patterns, and the Paper and Signal style variations.

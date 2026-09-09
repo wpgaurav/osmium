@@ -2,7 +2,7 @@
 /**
  * Title: Header, minimal
  * Slug: osmium/header-minimal
- * Categories: header
+ * Categories: header, osmium-headers
  * Block Types: core/template-part/header
  * Description: Site title on the left and navigation on the right. No search, no border.
  *

@@ -2,7 +2,7 @@
 /**
  * Title: Footer, four columns
  * Slug: osmium/footer-columns
- * Categories: footer
+ * Categories: footer, osmium-footers
  * Block Types: core/template-part/footer
  * Description: A wide footer with the site name, three link columns, and a legal line.
  *

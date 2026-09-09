@@ -2,7 +2,7 @@
 /**
  * Title: Hero with newsletter slot
  * Slug: osmium/hero-newsletter
- * Categories: osmium-content, banner
+ * Categories: osmium-hero, banner
  * Keywords: hero, newsletter, subscribe, email, intro
  * Description: A page opener with a promise and room for a signup form. Replace the button with your form plugin's block to collect addresses in place.
  * Viewport Width: 1200

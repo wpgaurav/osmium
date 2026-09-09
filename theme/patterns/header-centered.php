@@ -2,7 +2,7 @@
 /**
  * Title: Header, centered
  * Slug: osmium/header-centered
- * Categories: header
+ * Categories: header, osmium-headers
  * Block Types: core/template-part/header
  * Description: Site title on its own line with the navigation centered beneath it.
  *

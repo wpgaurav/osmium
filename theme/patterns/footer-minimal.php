@@ -2,7 +2,7 @@
 /**
  * Title: Footer, one line
  * Slug: osmium/footer-minimal
- * Categories: footer
+ * Categories: footer, osmium-footers
  * Block Types: core/template-part/footer
  * Description: Site name on the left, a short credit on the right. Nothing else.
  *
