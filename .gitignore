@@ -9,3 +9,6 @@ design/shots/
 # Build output
 build/
 *.zip
+
+# Verification screenshots. Re-create from the dev site.
+docs/shots/
