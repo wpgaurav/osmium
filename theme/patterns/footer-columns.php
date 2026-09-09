@@ -40,7 +40,7 @@
 <h2 class="wp-block-heading has-small-font-size" style="font-family:var(--wp--preset--font-family--valley-sans);font-weight:600;letter-spacing:0"><?php echo esc_html__( 'Elsewhere', 'osmium' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:social-links {"iconColor":"contrast-2","iconColorValue":"#525252","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}},"className":"is-style-logos-only","layout":{"type":"flex"}} -->
+<!-- wp:social-links {"iconColor":"contrast-2","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}},"className":"is-style-logos-only","layout":{"type":"flex"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"feed"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
