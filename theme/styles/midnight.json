@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Midnight",
+	"description": "The dark counterpart to Editorial. Near-black page, warm teal accent, and the same serif headlines. Section styles stay dark rather than flipping to white.",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "name": "Base", "slug": "base", "color": "#0a0a0a" },
+				{ "name": "Base Two", "slug": "base-2", "color": "#171717" },
+				{ "name": "Contrast", "slug": "contrast", "color": "#fafafa" },
+				{ "name": "Contrast Two", "slug": "contrast-2", "color": "#a3a3a3" },
+				{ "name": "Contrast Three", "slug": "contrast-3", "color": "#404040" },
+				{ "name": "Primary", "slug": "primary", "color": "#5eead4" },
+				{ "name": "Primary Tint", "slug": "primary-tint", "color": "#134e4a" }
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/code": {
+				"color": {
+					"background": "var:preset|color|base-2",
+					"text": "var:preset|color|contrast"
+				}
+			},
+			"core/column": {
+				"variations": {
+					"card": { "color": { "background": "var:preset|color|base-2" } },
+					"dark": {
+						"color": {
+							"background": "var:preset|color|base-2",
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/columns": {
+				"variations": {
+					"card": { "color": { "background": "var:preset|color|base-2" } },
+					"dark": {
+						"color": {
+							"background": "var:preset|color|base-2",
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/group": {
+				"variations": {
+					"card": { "color": { "background": "var:preset|color|base-2" } },
+					"dark": {
+						"color": {
+							"background": "var:preset|color|base-2",
+							"text": "var:preset|color|contrast"
+						},
+						"elements": {
+							"button": {
+								"color": {
+									"background": "var:preset|color|primary",
+									"text": "var:preset|color|base"
+								},
+								":hover": {
+									"color": {
+										"background": "var:preset|color|contrast",
+										"text": "var:preset|color|base"
+									}
+								}
+							},
+							"heading": { "color": { "text": "var:preset|color|contrast" } },
+							"link": { "color": { "text": "var:preset|color|primary" } }
+						}
+					}
+				}
+			}
+		}
+	}
+}

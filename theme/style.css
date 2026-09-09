@@ -67,7 +67,7 @@ select:focus-visible {
 
 /* Form controls. The 7.1 theme.json schema has no input element, so these live
    here. Every value reads a preset, so a style variation restyles them for
-   free. The border sits at roughly 3.4:1 against the page and the placeholder
+   free. The border sits at 3.4:1 or better against the page and the placeholder
    at roughly 6:1, which clears WCAG 1.4.11 and 1.4.3. */
 input[type="text"],
 input[type="email"],
@@ -80,7 +80,7 @@ input[type="date"],
 textarea,
 select {
 	background-color: var(--wp--preset--color--base);
-	border: 1px solid color-mix(in srgb, var(--wp--preset--color--contrast) 45%, transparent);
+	border: 1px solid color-mix(in srgb, var(--wp--preset--color--contrast) 52%, transparent);
 	border-radius: 8px;
 	color: var(--wp--preset--color--contrast);
 	font-family: inherit;
