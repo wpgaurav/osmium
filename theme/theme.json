@@ -414,6 +414,11 @@
 			"name": "page-no-title",
 			"title": "Page, no title",
 			"postTypes": ["page"]
+		},
+		{
+			"name": "single-with-sidebar",
+			"title": "Post with sidebar",
+			"postTypes": ["post"]
 		}
 	],
 	"templateParts": [
