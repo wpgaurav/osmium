@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+vendor/
+*.log
+
+# Rendered design mockup screenshots. Re-create with design/shots.py.
+design/shots/
+
+# Build output
+build/
+*.zip

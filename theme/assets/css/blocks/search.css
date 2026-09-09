@@ -1,0 +1,38 @@
+/**
+ * Search block.
+ *
+ * Loaded by osmium_enqueue_block_styles() only on views where the Search block
+ * renders. Keep every value tied to a preset so style variations follow.
+ *
+ * The selectors carry two classes so they outrank the `wp-element-button`
+ * styles theme.json emits at `:root :where(.wp-element-button)`. A search
+ * button is a utility control, not the page's primary action.
+ */
+
+.wp-block-search .wp-block-search__button {
+	background-color: var(--wp--preset--color--base-2);
+	border: 0;
+	border-radius: 9999px;
+	color: var(--wp--preset--color--contrast);
+	cursor: pointer;
+	padding: 0.5rem 0.75rem;
+}
+
+.wp-block-search .wp-block-search__button:hover {
+	background-color: var(--wp--preset--color--contrast-3);
+}
+
+.wp-block-search .wp-block-search__button svg {
+	fill: currentColor;
+}
+
+/* An icon-only control still needs a 24px target at minimum (WCAG 2.5.8).
+   44px keeps it comfortable under a thumb. */
+.wp-block-search.wp-block-search__button-only .wp-block-search__button {
+	min-height: 44px;
+	min-width: 44px;
+}
+
+.wp-block-search .wp-block-search__input {
+	border-radius: 9999px;
+}

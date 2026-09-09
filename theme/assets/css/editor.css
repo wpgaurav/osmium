@@ -1,0 +1,24 @@
+/**
+ * Editor-only styles.
+ *
+ * The block editor is iframed for block themes in WordPress 7.1, so editor CSS
+ * must arrive through add_editor_style. theme.json already covers appearance in
+ * both places; this file only fixes things that exist in the editor and not on
+ * the front end.
+ */
+
+/* Give the title field the same measure and face as the rendered post title so
+   the writer sees the real line breaks while drafting. */
+.editor-post-title__input,
+.wp-block-post-title.is-root-container {
+	font-family: var(--wp--preset--font-family--hedvig-letters-serif);
+	letter-spacing: -0.02em;
+	line-height: 1.15;
+}
+
+/* Placeholder text in the editor canvas needs the same contrast floor as the
+   front end. */
+.block-editor-block-list__block .wp-block-paragraph[data-empty="true"]::before {
+	color: color-mix(in srgb, var(--wp--preset--color--contrast) 62%, transparent);
+	opacity: 1;
+}

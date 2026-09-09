@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Signal",
+	"description": "Cool neutrals, a blue accent, and sans-serif headlines with serif reserved for figures and quotes. For review sites and tool directories.",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "name": "Base", "slug": "base", "color": "#ffffff" },
+				{ "name": "Base Two", "slug": "base-2", "color": "#fafafa" },
+				{ "name": "Contrast", "slug": "contrast", "color": "#09090b" },
+				{ "name": "Contrast Two", "slug": "contrast-2", "color": "#52525b" },
+				{ "name": "Contrast Three", "slug": "contrast-3", "color": "#d4d4d8" },
+				{ "name": "Primary", "slug": "primary", "color": "#1d4ed8" },
+				{ "name": "Primary Tint", "slug": "primary-tint", "color": "#dbeafe" }
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": { "border": { "radius": "8px" } },
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600",
+					"letterSpacing": "-0.025em",
+					"lineHeight": "1.2"
+				}
+			}
+		},
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600",
+					"letterSpacing": "-0.025em"
+				}
+			},
+			"core/pullquote": {
+				"typography": { "fontFamily": "var:preset|font-family|hedvig-letters-serif" }
+			},
+			"core/quote": {
+				"border": { "left": { "color": "var:preset|color|primary" } },
+				"typography": { "fontFamily": "var:preset|font-family|hedvig-letters-serif" }
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600"
+				}
+			}
+		}
+	}
+}

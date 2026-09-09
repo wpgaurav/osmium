@@ -1,0 +1,71 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Paper",
+	"description": "Warm paper, terracotta accent, and serif reading text. For essays and text-first blogs.",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "name": "Base", "slug": "base", "color": "#faf7f2" },
+				{ "name": "Base Two", "slug": "base-2", "color": "#f0ebe2" },
+				{ "name": "Contrast", "slug": "contrast", "color": "#1c1917" },
+				{ "name": "Contrast Two", "slug": "contrast-2", "color": "#57534e" },
+				{ "name": "Contrast Three", "slug": "contrast-3", "color": "#d6d3d1" },
+				{ "name": "Primary", "slug": "primary", "color": "#9a3412" },
+				{ "name": "Primary Tint", "slug": "primary-tint", "color": "#ffedd5" }
+			]
+		},
+		"layout": {
+			"contentSize": "40rem",
+			"wideSize": "48rem"
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+			"fontSize": "var:preset|font-size|large",
+			"lineHeight": "1.7"
+		},
+		"elements": {
+			"button": {
+				"border": { "radius": "6px" },
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"caption": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"cite": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			}
+		},
+		"blocks": {
+			"core/categories": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/code": {
+				"border": { "radius": "6px" }
+			},
+			"core/navigation": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/post-author-name": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/post-date": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/post-terms": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/post-time-to-read": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/query-pagination": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			},
+			"core/search": {
+				"typography": { "fontFamily": "var:preset|font-family|valley-sans" }
+			}
+		}
+	}
+}

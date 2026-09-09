@@ -1,0 +1,198 @@
+/*
+Theme Name: Osmium
+Theme URI: https://github.com/wpgaurav/osmium
+Author: Gaurav Tiwari
+Author URI: https://gauravtiwari.org
+Description: A content-first block theme for writers, publishers, and review sites. Osmium puts the design in theme.json and the layout in patterns, so it ships no JavaScript of its own and stays out of the way of your words. Includes a review kit, three style variations, and templates built for long-form reading.
+Requires at least: 7.0
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: osmium
+Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, wide-blocks
+*/
+
+/*
+ * Almost every style in Osmium lives in theme.json. This file carries only the
+ * rules theme.json cannot express. Keep it short. If a rule can move to
+ * theme.json or to a block style variation in styles/, move it.
+ */
+
+/* Focus. theme.json has no :focus-visible state, so the ring lives here.
+   It reads the primary preset, so every style variation gets its own ring. */
+:root {
+	--osmium-focus-ring: var(--wp--preset--color--primary, currentColor);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+details:focus-visible,
+[tabindex]:focus-visible,
+.wp-block-navigation a:focus-visible,
+.wp-block-button__link:focus-visible {
+	outline: 2px solid var(--osmium-focus-ring);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+/* Inputs sit inside the element box, so an offset ring would clip. */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+	outline-offset: 0;
+}
+
+/* Core injects the skip link for block themes. Restyle it to match. */
+.skip-link.screen-reader-text:focus {
+	background-color: var(--wp--preset--color--contrast);
+	border-radius: 9999px;
+	box-shadow: none;
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--valley-sans);
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: 600;
+	line-height: 1.25;
+	padding: 0.75rem 1.25rem;
+	text-decoration: none;
+	top: 1rem;
+	left: 1rem;
+	z-index: 100000;
+}
+
+/* Form controls. The 7.1 theme.json schema has no input element, so these live
+   here. Every value reads a preset, so a style variation restyles them for
+   free. The border sits at roughly 3.4:1 against the page and the placeholder
+   at roughly 6:1, which clears WCAG 1.4.11 and 1.4.3. */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid color-mix(in srgb, var(--wp--preset--color--contrast) 45%, transparent);
+	border-radius: 8px;
+	color: var(--wp--preset--color--contrast);
+	font-family: inherit;
+	font-size: var(--wp--preset--font-size--medium);
+	line-height: 1.5;
+	padding: 0.625rem 0.875rem;
+}
+
+textarea {
+	width: 100%;
+}
+
+::placeholder {
+	color: color-mix(in srgb, var(--wp--preset--color--contrast) 62%, transparent);
+	opacity: 1;
+}
+
+/* A table wider than its column scrolls instead of breaking the layout.
+   The markup carries role="region" and tabindex="0" so the scroll area is
+   reachable by keyboard. */
+.wp-block-table {
+	overflow-x: auto;
+}
+
+.wp-block-table table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* Rows divide with a single horizontal rule. No vertical lines, no outer box.
+   Two classes plus :is() outrank the core table border defaults. */
+.wp-block-table table :is(td, th) {
+	border: 0;
+	border-bottom: 1px solid var(--wp--preset--color--contrast-3);
+	font-variant-numeric: tabular-nums;
+	padding: 0.75rem 1.5rem 0.75rem 0;
+	text-align: left;
+	vertical-align: top;
+}
+
+.wp-block-table table :is(td, th):last-child {
+	padding-right: 0;
+}
+
+.wp-block-table table thead :is(td, th) {
+	color: var(--wp--preset--color--contrast-2);
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.wp-block-table table tbody tr:last-child :is(td, th) {
+	border-bottom: 0;
+}
+
+/* Long words and URLs inside narrow columns. */
+.wp-block-post-content,
+.wp-block-post-excerpt,
+.wp-block-post-title {
+	overflow-wrap: break-word;
+}
+
+/* Balanced headings, pretty paragraphs. Progressive: browsers without support
+   simply ignore these. */
+h1,
+h2,
+h3,
+.wp-block-post-title,
+.wp-block-site-title {
+	text-wrap: balance;
+}
+
+p,
+li,
+figcaption {
+	text-wrap: pretty;
+}
+
+/* Media never overflows its container. */
+img,
+video,
+iframe,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Respect the reader's motion preference. */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+/* Print: drop the furniture, keep the article. */
+@media print {
+	.wp-block-template-part[class*="header"],
+	.wp-block-template-part[class*="footer"],
+	.wp-block-navigation,
+	.wp-block-search,
+	.wp-block-post-comments-form,
+	.skip-link {
+		display: none !important;
+	}
+
+	.wp-block-post-content a::after {
+		content: " (" attr(href) ")";
+		font-size: 0.85em;
+		word-break: break-all;
+	}
+}
