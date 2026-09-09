@@ -17,7 +17,7 @@
 
 <!-- wp:post-title {"isLink":true,"level":2,"fontSize":"x-large"} /-->
 
-<!-- wp:post-excerpt {"moreText":"<?php echo esc_attr__( 'Keep reading', 'osmium' ); ?>","excerptLength":32,"textColor":"contrast-2"} /-->
+<!-- wp:post-excerpt {"excerptLength":32,"textColor":"contrast-2"} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"var:preset|spacing|20"}}},"textColor":"contrast-2","fontSize":"small","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group has-contrast-2-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--20)"><!-- wp:post-date /-->

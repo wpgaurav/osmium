@@ -21,8 +21,8 @@
 <p class="has-contrast-2-color has-text-color has-large-font-size"><?php echo esc_html__( 'No sponsor slots, no roundup filler. Unsubscribe from the footer of every issue.', 'osmium' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--20)"><!-- wp:button -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Subscribe', 'osmium' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>

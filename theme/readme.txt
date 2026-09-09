@@ -39,6 +39,12 @@ Osmium registers no post types, no blocks, no shortcodes, and no settings page. 
 
 No. Every template, part, and pattern uses core blocks only.
 
+= Why does my front page look like the theme demo? =
+
+Osmium ships a Front Page template, so the front of your site gets a designed layout the moment you activate the theme, with your own newest posts in it. Nothing is created in your database and no settings are changed.
+
+If you would rather use a page you built yourself, open Appearance then Editor, go to Templates, and either edit the Front Page template or delete it. With it gone, WordPress falls back to your own page. You can also start from Patterns and pick "Homepage for a publication" to build a page with the same sections.
+
 = Can I change the fonts? =
 
 Yes. Open the Site Editor, go to Styles then Typography, and pick any font from the Font Library or upload your own.

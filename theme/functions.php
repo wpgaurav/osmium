@@ -130,6 +130,37 @@ function osmium_make_tables_focusable( $block_content ) {
 add_filter( 'render_block_core/table', 'osmium_make_tables_focusable' );
 
 /**
+ * Repair the Navigation block's markup before a menu exists.
+ *
+ * With no menu assigned, core falls back to a Page List and nests that list's
+ * `ul` directly inside the navigation's own `ul`. A `ul` may only contain `li`,
+ * so the result is invalid markup that assistive technology reads as a broken
+ * list, and it is what every visitor sees on a freshly activated theme.
+ * Lifting the inner list items up one level fixes the structure without
+ * changing what is on screen.
+ *
+ * The replacement only fires when that exact nesting is present, so if core
+ * changes the fallback this becomes a no-op rather than a new bug.
+ *
+ * @since 0.1.0
+ *
+ * @param string $block_content Rendered block HTML.
+ * @return string Rendered block HTML with a valid list structure.
+ */
+function osmium_fix_navigation_fallback_markup( $block_content ) {
+	if ( false === strpos( $block_content, 'wp-block-page-list' ) ) {
+		return $block_content;
+	}
+
+	// Unwrap `<ul class="wp-block-page-list">` when it sits straight inside the
+	// navigation container, leaving its list items as the container's children.
+	$pattern = '#(<ul[^>]*class="[^"]*wp-block-navigation__container[^"]*"[^>]*>)\s*<ul[^>]*class="[^"]*wp-block-page-list[^"]*"[^>]*>(.*?)</ul>\s*(</ul>)#s';
+
+	return preg_replace( $pattern, '$1$2$3', $block_content, 1 );
+}
+add_filter( 'render_block_core/navigation', 'osmium_fix_navigation_fallback_markup' );
+
+/**
  * Attach per-block stylesheets.
  *
  * Each file loads only on pages where its block actually renders, which keeps

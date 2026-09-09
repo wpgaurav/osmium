@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ruleset name="Osmium">
+	<description>Coding standards for the Osmium block theme.</description>
+
+	<file>theme</file>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+	<arg value="ps"/>
+
+	<!-- WPCS 3.x dropped the WordPress-Theme ruleset; theme-specific checks now
+	     live in the Theme Check plugin, which this project runs separately. -->
+	<rule ref="WordPress-Core"/>
+	<rule ref="WordPress-Docs"/>
+
+	<config name="minimum_wp_version" value="7.0"/>
+	<config name="testVersion" value="7.4-"/>
+	<rule ref="PHPCompatibilityWP"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="osmium"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

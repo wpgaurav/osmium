@@ -48,6 +48,15 @@ select:focus-visible {
 	outline-offset: 0;
 }
 
+/* Top-level template sections sit flush against each other. The root block gap
+   is meant for blocks inside a template, but WordPress also applies it between
+   the header, main, and footer. Every Osmium template sets its own vertical
+   rhythm, so that outer gap only ever shows up as a stray band above a
+   full-bleed section. */
+.wp-site-blocks > * + * {
+	margin-block-start: 0;
+}
+
 /* Core injects the skip link for block themes. Restyle it to match. */
 .skip-link.screen-reader-text:focus {
 	background-color: var(--wp--preset--color--contrast);
@@ -96,6 +105,18 @@ textarea {
 ::placeholder {
 	color: color-mix(in srgb, var(--wp--preset--color--contrast) 62%, transparent);
 	opacity: 1;
+}
+
+/* The Categories block renders a bulleted list. In a sidebar or footer it sits
+   next to other link lists that carry no bullets, and the markers read as noise
+   rather than structure. The list stays a list for a screen reader. */
+.wp-block-categories-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.wp-block-categories-list li + li {
+	margin-top: 0.5rem;
 }
 
 /* A table wider than its column scrolls instead of breaking the layout.
