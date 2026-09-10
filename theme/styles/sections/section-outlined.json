@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Outlined",
+	"slug": "outlined",
+	"blockTypes": [
+		"core/group",
+		"core/columns",
+		"core/column",
+		"core/post-template"
+	],
+	"styles": {
+		"border": {
+			"color": "var:preset|color|contrast-3",
+			"radius": "16px",
+			"style": "solid",
+			"width": "1px"
+		},
+		"spacing": {
+			"padding": {
+				"top": "var:preset|spacing|40",
+				"bottom": "var:preset|spacing|40",
+				"left": "var:preset|spacing|40",
+				"right": "var:preset|spacing|40"
+			}
+		}
+	}
+}

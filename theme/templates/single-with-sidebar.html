@@ -8,8 +8,6 @@
 <div class="wp-block-column" style="flex-basis:64%">
 <!-- wp:group {"tagName":"article","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 <article class="wp-block-group">
-<!-- wp:post-terms {"term":"category","textColor":"primary","fontSize":"small","style":{"typography":{"fontWeight":"500"}}} /-->
-
 <!-- wp:post-title {"level":1,"fontSize":"xx-large"} /-->
 
 <!-- wp:template-part {"slug":"post-meta","area":"uncategorized"} /-->
@@ -20,9 +18,13 @@
 </article>
 <!-- /wp:group -->
 
-<!-- wp:post-terms {"term":"post_tag","textColor":"contrast-2","fontSize":"small","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} /-->
+<!-- wp:post-terms {"term":"post_tag","className":"is-style-pill","fontSize":"small"} /-->
+
+<!-- wp:template-part {"slug":"author-box","area":"uncategorized"} /-->
 
 <!-- wp:pattern {"slug":"osmium/hidden-post-navigation"} /-->
+
+<!-- wp:template-part {"slug":"related-posts","area":"uncategorized"} /-->
 
 <!-- wp:template-part {"slug":"comments","area":"uncategorized"} /-->
 </div>
@@ -36,6 +38,10 @@
 </div>
 <!-- /wp:columns -->
 </main>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:breadcrumbs {"textColor":"contrast-2","fontSize":"small"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->

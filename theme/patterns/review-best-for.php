@@ -19,13 +19,13 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","minimumColumnWidth":"18rem"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-card","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group is-style-card"><!-- wp:paragraph {"textColor":"primary","fontSize":"small","style":{"typography":{"fontWeight":"500"}}} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-weight:500"><?php echo esc_html__( 'Best overall', 'osmium' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'The one to buy', 'osmium' ); ?></h3>
+<div class="wp-block-group is-style-card"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'Best overall', 'osmium' ); ?></h3>
 <!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-weight:600"><?php echo esc_html__( 'The one to buy', 'osmium' ); ?></p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
 <p class="has-contrast-2-color has-text-color has-small-font-size"><?php echo esc_html__( 'For someone who will use this every working day and wants to stop thinking about it.', 'osmium' ); ?></p>
@@ -37,13 +37,13 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"is-style-card","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group is-style-card"><!-- wp:paragraph {"textColor":"primary","fontSize":"small","style":{"typography":{"fontWeight":"500"}}} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-weight:500"><?php echo esc_html__( 'Best on a budget', 'osmium' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'The cheaper pick', 'osmium' ); ?></h3>
+<div class="wp-block-group is-style-card"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'Best on a budget', 'osmium' ); ?></h3>
 <!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-weight:600"><?php echo esc_html__( 'The cheaper pick', 'osmium' ); ?></p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
 <p class="has-contrast-2-color has-text-color has-small-font-size"><?php echo esc_html__( 'For a first purchase, where the money saved matters more than the last ten percent of quality.', 'osmium' ); ?></p>
@@ -55,13 +55,13 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"is-style-card","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group is-style-card"><!-- wp:paragraph {"textColor":"primary","fontSize":"small","style":{"typography":{"fontWeight":"500"}}} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-weight:500"><?php echo esc_html__( 'Best for one job', 'osmium' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'The specialist', 'osmium' ); ?></h3>
+<div class="wp-block-group is-style-card"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'Best for one job', 'osmium' ); ?></h3>
 <!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-weight:600"><?php echo esc_html__( 'The specialist', 'osmium' ); ?></p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
 <p class="has-contrast-2-color has-text-color has-small-font-size"><?php echo esc_html__( 'Wrong for most people, and the right answer for the one situation the others handle badly.', 'osmium' ); ?></p>

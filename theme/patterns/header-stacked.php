@@ -26,6 +26,6 @@
 <!-- wp:site-title {"level":0,"fontSize":"x-large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"ariaLabel":"Main","overlayMenu":"mobile","icon":"menu","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|40"},"typography":{"fontWeight":"500"}},"layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} /--></div>
+<!-- wp:navigation {"ariaLabel":"<?php echo esc_attr__( 'Main', 'osmium' ); ?>","overlayMenu":"mobile","icon":"menu","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|40"},"typography":{"fontWeight":"500"}},"layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

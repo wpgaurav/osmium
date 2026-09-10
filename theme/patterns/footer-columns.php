@@ -24,7 +24,7 @@
 <h2 class="wp-block-heading has-small-font-size" style="font-family:var(--wp--preset--font-family--valley-sans);font-weight:600;letter-spacing:0"><?php echo esc_html__( 'Read', 'osmium' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ariaLabel":"Read","overlayMenu":"never","fontSize":"small","textColor":"contrast-2","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"ariaLabel":"<?php echo esc_attr__( 'Read', 'osmium' ); ?>","overlayMenu":"never","fontSize":"small","textColor":"contrast-2","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -41,7 +41,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-contrast-2-color has-text-color has-small-font-size"><a href="/feed/"><?php echo esc_html__( 'RSS feed', 'osmium' ); ?></a></p>
+<p class="has-contrast-2-color has-text-color has-small-font-size"><a href="<?php echo esc_url( get_feed_link() ); ?>"><?php echo esc_html__( 'RSS feed', 'osmium' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

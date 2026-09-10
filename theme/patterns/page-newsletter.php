@@ -4,6 +4,7 @@
  * Slug: osmium/page-newsletter
  * Categories: osmium-pages
  * Post Types: page
+ * Block Types: core/post-content
  * Keywords: newsletter, subscribe, email, signup, landing
  * Description: A page with one job. Replace the button in the hero with your form plugin's block to collect addresses without leaving the page.
  * Viewport Width: 1400

@@ -4,6 +4,7 @@
  * Slug: osmium/page-tools
  * Categories: osmium-pages
  * Post Types: page
+ * Block Types: core/post-content
  * Keywords: tools, resources, stack, uses, gear, recommendations
  * Description: The page people ask for by name. What you actually use, grouped by job, with a line on why each one earned its place. Link out through managed short links rather than raw affiliate URLs.
  * Viewport Width: 1400

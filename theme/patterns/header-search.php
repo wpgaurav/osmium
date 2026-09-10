@@ -23,5 +23,5 @@
 <!-- wp:search {"showLabel":false,"placeholder":"<?php echo esc_attr__( 'Search the archive', 'osmium' ); ?>","width":320,"widthUnit":"px","buttonText":"<?php echo esc_attr__( 'Search', 'osmium' ); ?>","buttonPosition":"button-inside","buttonUseIcon":true,"style":{"border":{"radius":"9999px"}}} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"ariaLabel":"Main","overlayMenu":"mobile","icon":"menu","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|40"},"typography":{"fontWeight":"500"}},"layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"}} /--></div>
+<!-- wp:navigation {"ariaLabel":"<?php echo esc_attr__( 'Main', 'osmium' ); ?>","overlayMenu":"mobile","icon":"menu","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|40"},"typography":{"fontWeight":"500"}},"layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"}} /--></div>
 <!-- /wp:group -->

@@ -1,0 +1,55 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Sans throughout",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|valley-sans",
+			"fontSize": "var:preset|font-size|medium",
+			"lineHeight": "1.75"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600",
+					"letterSpacing": "-0.025em",
+					"lineHeight": "1.2"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600",
+					"letterSpacing": "-0.02em"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600",
+					"letterSpacing": "-0.025em"
+				}
+			},
+			"core/pullquote": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "500"
+				}
+			},
+			"core/quote": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			}
+		}
+	}
+}

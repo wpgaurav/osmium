@@ -4,6 +4,7 @@
  * Slug: osmium/page-about
  * Categories: osmium-pages
  * Post Types: page
+ * Block Types: core/post-content
  * Keywords: about, bio, who, colophon, story
  * Description: Who writes the site, how the work gets done, and how it pays for itself. The disclosure section is the part readers actually look for.
  * Viewport Width: 1000

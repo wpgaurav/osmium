@@ -4,10 +4,10 @@ Contributors: wpgaurav
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.0
+Stable tag: 0.3.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, wide-blocks
+Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, wide-blocks
 
 A content-first block theme for writers, publishers, and review sites.
 
@@ -19,10 +19,11 @@ The design lives in theme.json and the layout lives in patterns, so the theme sh
 
 What you get:
 
-* Templates built for long-form reading, with a content width tuned to about 65 characters a line
-* A review kit of patterns: verdicts, pros and cons, comparison tables, and product calls to action
-* Three style variations that swap colors, radii, and type roles without touching your layouts
-* Block style variations for tinted, dark, and card sections, so patterns stay core blocks only
+* 22 templates built for long-form reading, with a content width tuned to about 65 characters a line. Six of them can be picked per post or page: a cover header, a split header, a sidebar, a wide page, a landing page, and a blank canvas
+* 122 patterns in ten groups: openers, post lists, content sections, an article kit, a review kit, sidebar blocks, full pages, starting layouts for new posts, headers, and footers
+* A review kit for product and affiliate sites: verdicts, scores, pros and cons, spec and comparison tables, roundup picks, plan comparisons, and a disclosure note
+* Six designs, five extra color palettes, and four type presets. Every one uses the same two fonts and the same spacing, so switching never breaks a layout
+* Section and block styles for tinted, dark, accent, outlined, card, and elevated sections, checklists, and pill tags, so patterns stay core blocks only
 * Two bundled fonts, Valley Sans and Hedvig Letters Serif, self-hosted and served from your own domain
 
 Osmium registers no post types, no blocks, no shortcodes, and no settings page. Everything you build with it keeps working if you switch themes.
@@ -53,7 +54,25 @@ Yes. Open the Site Editor, go to Styles then Typography, and pick any font from 
 
 Open the block inserter, choose Patterns, and look for the Osmium: Review kit category.
 
+= Can one post use a different layout? =
+
+Yes. In the editor sidebar, open the Template setting. Posts can use Post with cover header, Post with split header, or Post with sidebar. Pages can use Page with sidebar, Wide page, Landing page, Blank canvas, or Page, no title.
+
+= Is there a starting structure for a review or a how-to guide? =
+
+Yes. Create a new post and open the pattern inserter. The Osmium: Post layouts group holds starting structures for a review, a roundup, a how-to guide, a comparison, an interview, a news post, and an essay.
+
 == Changelog ==
+
+= 0.3.0 =
+* 85 new patterns, for 122 in total. New groups: Post lists, Article kit, Sidebar, and Post layouts, the last with starting structures for reviews, roundups, how-to guides, comparisons, interviews, news, and essays.
+* New templates for categories, tags, date archives, the privacy policy page, and attachments, plus six templates you can pick per post or page.
+* Two new dark designs, Graphite and Espresso, five color palettes, and four type presets.
+* New styles: checklist and plain lists, framed images, pill tags, a lead paragraph, a text-link button, and accent, outlined, and elevated sections.
+* Striped tables now follow the palette, so they stay readable in the dark designs.
+* Posts end with an author box and related posts. Breadcrumbs sit at the foot of posts, pages, and archives.
+* Every section now opens with its heading. Small labels above headings are gone, and a post's category sits in the meta line under its title.
+* The feed link follows the site address, so it works on a subdirectory install.
 
 = 0.2.0 =
 * Added 15 patterns and two categories. Headers and footers now have five each, and there is a new Openers group with five ways to start a page.
@@ -77,6 +96,12 @@ License: SIL Open Font License, Version 1.1
 License URL: https://scripts.sil.org/OFL
 Source: https://github.com/HelsinkiTypeStudio/valley-sans
 Bundled license text: assets/fonts/valley-sans-LICENSE.txt
+
+Pattern images
+Copyright 2026 Gaurav Tiwari
+License: GNU General Public License v2 or later
+License URL: http://www.gnu.org/licenses/gpl-2.0.html
+Source: generated for Osmium, the twelve abstract images in assets/images
 
 Hedvig Letters Serif
 Copyright 2023 The Hedvig Letters Project Authors

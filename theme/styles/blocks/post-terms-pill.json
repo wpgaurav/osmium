@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Pill",
+	"slug": "pill",
+	"blockTypes": [
+		"core/post-terms"
+	],
+	"styles": {
+		"css": "& a{display:inline-block;margin:0 0.35em 0.35em 0;padding:0.2em 0.75em;border-radius:9999px;background-color:var(--wp--preset--color--primary-tint);color:var(--wp--preset--color--contrast);text-decoration:none}& a:hover{text-decoration:underline}& .wp-block-post-terms__separator{display:none}"
+	}
+}

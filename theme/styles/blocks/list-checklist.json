@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Checklist",
+	"slug": "checklist",
+	"blockTypes": [
+		"core/list"
+	],
+	"styles": {
+		"spacing": {
+			"padding": {
+				"left": "0"
+			}
+		},
+		"css": "list-style:none;& li{position:relative;padding-left:1.75em}& li+li{margin-top:0.4em}& li::before{content:\"\";position:absolute;left:0.15em;top:0.55em;width:0.85em;height:0.45em;border-left:2px solid var(--wp--preset--color--primary);border-bottom:2px solid var(--wp--preset--color--primary);transform:rotate(-45deg)}"
+	}
+}

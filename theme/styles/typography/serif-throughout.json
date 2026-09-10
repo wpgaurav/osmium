@@ -1,0 +1,109 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Serif throughout",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+			"fontSize": "var:preset|font-size|large",
+			"lineHeight": "1.7"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400",
+					"letterSpacing": "-0.02em",
+					"lineHeight": "1.15"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"cite": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			}
+		},
+		"blocks": {
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/post-author-name": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/post-time-to-read": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/categories": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/breadcrumbs": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			}
+		}
+	}
+}

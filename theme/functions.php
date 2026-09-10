@@ -85,6 +85,22 @@ function osmium_register_pattern_categories() {
 			'label'       => _x( 'Osmium: Review kit', 'Block pattern category', 'osmium' ),
 			'description' => __( 'Verdicts, pros and cons, comparison tables, and product calls to action.', 'osmium' ),
 		),
+		'osmium-posts'   => array(
+			'label'       => _x( 'Osmium: Post lists', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Grids, lists, and magazine layouts that pull in your posts.', 'osmium' ),
+		),
+		'osmium-article' => array(
+			'label'       => _x( 'Osmium: Article kit', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Pieces that go inside an article: takeaways, contents, callouts, steps, and asides.', 'osmium' ),
+		),
+		'osmium-sidebar' => array(
+			'label'       => _x( 'Osmium: Sidebar', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Compact blocks sized for a sidebar or a narrow column.', 'osmium' ),
+		),
+		'osmium-starter' => array(
+			'label'       => _x( 'Osmium: Post layouts', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Starting structures for a new post: reviews, roundups, how-to guides, comparisons, and more.', 'osmium' ),
+		),
 		'osmium-headers' => array(
 			'label'       => _x( 'Osmium: Headers', 'Block pattern category', 'osmium' ),
 			'description' => __( 'Site headers you can swap into the header template part.', 'osmium' ),

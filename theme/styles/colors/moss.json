@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Moss",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#fbfbf8"
+				},
+				{
+					"name": "Base Two",
+					"slug": "base-2",
+					"color": "#f1f2ea"
+				},
+				{
+					"name": "Contrast",
+					"slug": "contrast",
+					"color": "#1a1f16"
+				},
+				{
+					"name": "Contrast Two",
+					"slug": "contrast-2",
+					"color": "#4f5746"
+				},
+				{
+					"name": "Contrast Three",
+					"slug": "contrast-3",
+					"color": "#d4d8c8"
+				},
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#3f6212"
+				},
+				{
+					"name": "Primary Tint",
+					"slug": "primary-tint",
+					"color": "#ecfccb"
+				}
+			]
+		}
+	}
+}

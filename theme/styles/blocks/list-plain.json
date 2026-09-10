@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Plain",
+	"slug": "plain",
+	"blockTypes": [
+		"core/list"
+	],
+	"styles": {
+		"spacing": {
+			"padding": {
+				"left": "0"
+			}
+		},
+		"css": "list-style:none;& li+li{margin-top:0.4em}"
+	}
+}

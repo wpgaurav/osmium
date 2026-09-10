@@ -405,26 +405,36 @@
 				}
 			},
 			"core/table": {
-				"typography": { "fontSize": "var:preset|font-size|small" }
+				"typography": { "fontSize": "var:preset|font-size|small" },
+				"variations": {
+					"stripes": {
+						"border": { "width": "0" },
+						"css": "& tbody tr:nth-child(odd){background-color:var(--wp--preset--color--base-2)}& table{border-bottom:0}"
+					}
+				}
 			}
 		}
 	},
 	"customTemplates": [
-		{
-			"name": "page-no-title",
-			"title": "Page, no title",
-			"postTypes": ["page"]
-		},
-		{
-			"name": "single-with-sidebar",
-			"title": "Post with sidebar",
-			"postTypes": ["post"]
-		}
+		{ "name": "page-no-title", "title": "Page, no title", "postTypes": ["page"] },
+		{ "name": "page-with-sidebar", "title": "Page with sidebar", "postTypes": ["page"] },
+		{ "name": "page-wide", "title": "Wide page", "postTypes": ["page"] },
+		{ "name": "page-landing", "title": "Landing page", "postTypes": ["page"] },
+		{ "name": "page-blank", "title": "Blank canvas", "postTypes": ["page", "post"] },
+		{ "name": "single-with-sidebar", "title": "Post with sidebar", "postTypes": ["post"] },
+		{ "name": "single-cover", "title": "Post with cover header", "postTypes": ["post"] },
+		{ "name": "single-split", "title": "Post with split header", "postTypes": ["post"] }
 	],
 	"templateParts": [
 		{ "name": "header", "title": "Header", "area": "header" },
+		{ "name": "header-centered", "title": "Header, centered", "area": "header" },
+		{ "name": "header-minimal", "title": "Header, minimal", "area": "header" },
 		{ "name": "footer", "title": "Footer", "area": "footer" },
+		{ "name": "footer-columns", "title": "Footer, columns", "area": "footer" },
+		{ "name": "footer-minimal", "title": "Footer, minimal", "area": "footer" },
 		{ "name": "post-meta", "title": "Post meta", "area": "uncategorized" },
+		{ "name": "author-box", "title": "Author box", "area": "uncategorized" },
+		{ "name": "related-posts", "title": "Related posts", "area": "uncategorized" },
 		{ "name": "sidebar", "title": "Sidebar", "area": "uncategorized" },
 		{ "name": "comments", "title": "Comments", "area": "uncategorized" }
 	]

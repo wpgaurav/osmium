@@ -3,15 +3,15 @@ Theme Name: Osmium
 Theme URI: https://github.com/wpgaurav/osmium
 Author: Gaurav Tiwari
 Author URI: https://gauravtiwari.org
-Description: A content-first block theme for writers, publishers, and review sites. Osmium puts the design in theme.json and the layout in patterns, so it ships no JavaScript of its own and stays out of the way of your words. Includes a review kit, three style variations, and templates built for long-form reading.
+Description: A content-first block theme for writers, publishers, and review sites. Osmium puts the design in theme.json and the layout in patterns, so it ships no JavaScript of its own and stays out of the way of your words. Includes 22 templates, 122 patterns with a full review kit, and six designs that restyle every one of them.
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 0.2.0
+Version: 0.3.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: osmium
-Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, wide-blocks
+Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, wide-blocks
 */
 
 /*

@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Plum",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#fffcfd"
+				},
+				{
+					"name": "Base Two",
+					"slug": "base-2",
+					"color": "#f8f1f5"
+				},
+				{
+					"name": "Contrast",
+					"slug": "contrast",
+					"color": "#1f0f1a"
+				},
+				{
+					"name": "Contrast Two",
+					"slug": "contrast-2",
+					"color": "#5b4654"
+				},
+				{
+					"name": "Contrast Three",
+					"slug": "contrast-3",
+					"color": "#e2d3dc"
+				},
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#86198f"
+				},
+				{
+					"name": "Primary Tint",
+					"slug": "primary-tint",
+					"color": "#fae8ff"
+				}
+			]
+		}
+	}
+}

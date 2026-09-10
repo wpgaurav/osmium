@@ -4,7 +4,7 @@
  * Slug: osmium/hero-split
  * Categories: osmium-hero, banner
  * Keywords: hero, opener, split, image, intro, landing
- * Description: A statement on one side and a picture on the other. Add your own image; the block is left empty so nothing ships that you did not choose.
+ * Description: A statement on one side and a picture on the other. The placeholder image is theme-owned; swap in your own.
  * Viewport Width: 1400
  *
  * @package Osmium
@@ -16,11 +16,7 @@
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"54%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:54%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"small","style":{"typography":{"fontWeight":"500"}}} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-weight:500"><?php echo esc_html__( 'Since 2008', 'osmium' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":1,"fontSize":"xxx-large"} -->
+<div class="wp-block-group"><!-- wp:heading {"level":1,"fontSize":"xxx-large"} -->
 <h1 class="wp-block-heading has-xxx-large-font-size"><?php echo esc_html__( 'Tools tested for months, not for an afternoon.', 'osmium' ); ?></h1>
 <!-- /wp:heading -->
 
@@ -38,7 +34,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","style":{"border":{"radius":"12px"}}} -->
-<figure class="wp-block-image has-custom-border"><img alt="" style="border-radius:12px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/landscape-teal.webp" alt="" style="border-radius:12px;aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

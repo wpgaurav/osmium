@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Text link",
+	"slug": "text",
+	"blockTypes": [
+		"core/button"
+	],
+	"styles": {
+		"color": {
+			"background": "transparent",
+			"text": "inherit"
+		},
+		"spacing": {
+			"padding": {
+				"left": "0",
+				"right": "0"
+			}
+		},
+		"typography": {
+			"textDecoration": "underline"
+		},
+		":hover": {
+			"color": {
+				"background": "transparent",
+				"text": "inherit"
+			},
+			"typography": {
+				"textDecoration": "none"
+			}
+		}
+	}
+}

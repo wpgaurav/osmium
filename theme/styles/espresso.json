@@ -1,0 +1,141 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Espresso",
+	"description": "A warm dark design, coffee brown with an apricot accent. Dark sections stay dark rather than flipping to white.",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#16110d"
+				},
+				{
+					"name": "Base Two",
+					"slug": "base-2",
+					"color": "#211a14"
+				},
+				{
+					"name": "Contrast",
+					"slug": "contrast",
+					"color": "#f5efe6"
+				},
+				{
+					"name": "Contrast Two",
+					"slug": "contrast-2",
+					"color": "#b8a996"
+				},
+				{
+					"name": "Contrast Three",
+					"slug": "contrast-3",
+					"color": "#45382c"
+				},
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#f0a868"
+				},
+				{
+					"name": "Primary Tint",
+					"slug": "primary-tint",
+					"color": "#4a2f18"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/code": {
+				"color": {
+					"background": "var:preset|color|base-2",
+					"text": "var:preset|color|contrast"
+				}
+			},
+			"core/column": {
+				"variations": {
+					"card": {
+						"color": {
+							"background": "var:preset|color|base-2"
+						}
+					},
+					"dark": {
+						"color": {
+							"background": "var:preset|color|base-2",
+							"text": "var:preset|color|contrast"
+						}
+					},
+					"elevated": {
+						"color": {
+							"background": "var:preset|color|base-2"
+						}
+					}
+				}
+			},
+			"core/columns": {
+				"variations": {
+					"card": {
+						"color": {
+							"background": "var:preset|color|base-2"
+						}
+					},
+					"dark": {
+						"color": {
+							"background": "var:preset|color|base-2",
+							"text": "var:preset|color|contrast"
+						}
+					},
+					"elevated": {
+						"color": {
+							"background": "var:preset|color|base-2"
+						}
+					}
+				}
+			},
+			"core/group": {
+				"variations": {
+					"card": {
+						"color": {
+							"background": "var:preset|color|base-2"
+						}
+					},
+					"elevated": {
+						"color": {
+							"background": "var:preset|color|base-2"
+						}
+					},
+					"dark": {
+						"color": {
+							"background": "var:preset|color|base-2",
+							"text": "var:preset|color|contrast"
+						},
+						"elements": {
+							"button": {
+								"color": {
+									"background": "var:preset|color|primary",
+									"text": "var:preset|color|base"
+								},
+								":hover": {
+									"color": {
+										"background": "var:preset|color|contrast",
+										"text": "var:preset|color|base"
+									}
+								}
+							},
+							"heading": {
+								"color": {
+									"text": "var:preset|color|contrast"
+								}
+							},
+							"link": {
+								"color": {
+									"text": "var:preset|color|primary"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

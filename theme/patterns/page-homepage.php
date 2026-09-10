@@ -4,6 +4,7 @@
  * Slug: osmium/page-homepage
  * Categories: osmium-pages
  * Post Types: page
+ * Block Types: core/post-content
  * Keywords: homepage, front page, publication, blog, landing
  * Description: A front page that leads with what the site is, then the latest posts and the topics behind them. Assign it the "Page, no title" template so the full-width sections reach the edge.
  * Viewport Width: 1400

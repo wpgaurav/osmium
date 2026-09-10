@@ -25,7 +25,7 @@
 <h2 class="wp-block-heading has-small-font-size" style="font-family:var(--wp--preset--font-family--valley-sans);font-weight:600;letter-spacing:0"><?php echo esc_html__( 'Read', 'osmium' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ariaLabel":"Read","overlayMenu":"never","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"ariaLabel":"<?php echo esc_attr__( 'Read', 'osmium' ); ?>","overlayMenu":"never","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->

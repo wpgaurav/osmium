@@ -1,0 +1,97 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"title": "Serif reading text",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+			"fontSize": "var:preset|font-size|large",
+			"lineHeight": "1.7"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400",
+					"letterSpacing": "-0.02em",
+					"lineHeight": "1.15"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans",
+					"fontWeight": "600"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"cite": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			}
+		},
+		"blocks": {
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/post-author-name": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/post-time-to-read": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/categories": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/breadcrumbs": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|valley-sans"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|hedvig-letters-serif",
+					"fontWeight": "400"
+				}
+			}
+		}
+	}
+}

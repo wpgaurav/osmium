@@ -13,11 +13,7 @@
 
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"color":"var:preset|color|primary","style":"solid","width":"1px","radius":"12px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--primary);border-style:solid;border-width:1px;border-radius:12px;margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"textColor":"primary","fontSize":"small","style":{"typography":{"fontWeight":"500"}}} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-weight:500"><?php echo esc_html__( 'Live deal', 'osmium' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"large"} -->
+<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--primary);border-style:solid;border-width:1px;border-radius:12px;margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"fontSize":"large"} -->
 <p class="has-large-font-size"><?php echo esc_html__( '40 percent off the first year with code EXAMPLE40.', 'osmium' ); ?></p>
 <!-- /wp:paragraph -->
 

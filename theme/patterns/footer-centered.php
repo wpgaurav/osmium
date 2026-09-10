@@ -19,7 +19,7 @@
 <!-- wp:site-title {"level":0,"fontSize":"large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"ariaLabel":"Footer","overlayMenu":"never","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} /-->
+<!-- wp:navigation {"ariaLabel":"<?php echo esc_attr__( 'Footer', 'osmium' ); ?>","overlayMenu":"never","fontSize":"small","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} /-->
 
 <!-- wp:paragraph {"align":"center","textColor":"contrast-2","fontSize":"small"} -->
 <p class="has-text-align-center has-contrast-2-color has-text-color has-small-font-size"><?php echo esc_html__( 'Built on WordPress with the Osmium block theme.', 'osmium' ); ?></p>
