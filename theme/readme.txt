@@ -4,7 +4,7 @@ Contributors: wpgaurav
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.3.0
+Stable tag: 0.3.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, wide-blocks
@@ -63,6 +63,9 @@ Yes. In the editor sidebar, open the Template setting. Posts can use Post with c
 Yes. Create a new post and open the pattern inserter. The Osmium: Post layouts group holds starting structures for a review, a roundup, a how-to guide, a comparison, an interview, a news post, and an essay.
 
 == Changelog ==
+
+= 0.3.1 =
+* Headers, footers, and breadcrumbs now span the wide width, so they line up with wide content instead of sitting inside the reading column. This covers all nine headers and all nine footers. Footer text keeps its readable line length.
 
 = 0.3.0 =
 * 85 new patterns, for 122 in total. New groups: Post lists, Article kit, Sidebar, and Post layouts, the last with starting structures for reviews, roundups, how-to guides, comparisons, interviews, news, and essays.
