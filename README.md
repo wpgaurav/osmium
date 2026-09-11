@@ -19,7 +19,7 @@ Status: in development, working toward a 1.0 submission to the WordPress.org the
 
 - **22 templates.** The full hierarchy: index, home, front page, single, page, archive, category, tag, date, author, search, 404, privacy policy, and attachment. Plus eight you can pick per post or page: post with sidebar, post with cover header, post with split header, page without a title, page with sidebar, wide page, landing page, and blank canvas.
 - **11 template parts.** Default, centered, and minimal headers; default, columns, and minimal footers; post meta, author box, related posts, sidebar, and comments.
-- **122 patterns in ten groups:** Openers, Post lists, Content, Article kit, Review kit, Sidebar, Pages, Post layouts, Headers, and Footers. Post layouts give a new post a starting structure for a review, a roundup, a how-to guide, a comparison, an interview, a news post, or an essay.
+- **128 patterns in eleven groups:** Openers, Post lists, Content, Article kit, Review kit, Sidebar, Pages, Full Pages, Post layouts, Headers, and Footers. Full Pages are complete pages from four sample sites: an author, a book review blog, a bookshop, and a literary magazine. Post layouts give a new post a starting structure for a review, a roundup, a how-to guide, a comparison, an interview, a news post, or an essay.
 - **A review kit of eighteen:** verdict, score, at a glance, pros and cons, spec table, comparison table, best-for cards, top picks, roundup pick, alternatives, plan comparison, how it was tested, buyer's checklist, deal strip, product call to action, final verdict, disclosure note, and tabbed details.
 - **Six designs.** Editorial is the default. Paper is warm and serif-led for essays. Signal is cool and card-led for review sites. Midnight, Graphite, and Espresso are dark and keep dark sections dark. There are also five palettes (Ink, Moss, Plum, Harbor, Rose) and four type presets, all on the same two fonts.
 - **Six section styles and six block styles**, so patterns stay core blocks instead of carrying custom CSS.
@@ -70,7 +70,7 @@ Osmium bundles two typefaces under the SIL Open Font License, version 1.1.
 
 Their license text ships alongside the font files in `theme/assets/fonts`.
 
-The twelve abstract pattern images in `theme/assets/images` were generated for Osmium and are released under the same license as the theme.
+The pattern images in `theme/assets/images` were generated for Osmium and are released under the same license as the theme. There are twelve abstract images. For the Full Pages patterns there are also ten book covers, three magazine covers, and two bookshop shelves. The books, people, and publishers on them are fictional.
 
 ## License
 

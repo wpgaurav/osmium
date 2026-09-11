@@ -73,6 +73,10 @@ function osmium_register_pattern_categories() {
 			'label'       => _x( 'Osmium: Pages', 'Block pattern category', 'osmium' ),
 			'description' => __( 'Full page layouts you can drop into a new page and edit.', 'osmium' ),
 		),
+		'osmium-full'    => array(
+			'label'       => _x( 'Osmium: Full Pages', 'Block pattern category', 'osmium' ),
+			'description' => __( 'Complete pages from four sample sites: an author, a book review blog, a bookshop, and a literary magazine.', 'osmium' ),
+		),
 		'osmium-hero'    => array(
 			'label'       => _x( 'Osmium: Openers', 'Block pattern category', 'osmium' ),
 			'description' => __( 'The first thing on a page: statements, splits, and signup bands.', 'osmium' ),

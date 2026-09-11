@@ -1,10 +1,10 @@
 === Osmium ===
 
-Contributors: wpgaurav
+Contributors: gauravtiwari
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.3.1
+Stable tag: 0.4.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, wide-blocks
@@ -20,7 +20,8 @@ The design lives in theme.json and the layout lives in patterns, so the theme sh
 What you get:
 
 * 22 templates built for long-form reading, with a content width tuned to about 65 characters a line. Six of them can be picked per post or page: a cover header, a split header, a sidebar, a wide page, a landing page, and a blank canvas
-* 122 patterns in ten groups: openers, post lists, content sections, an article kit, a review kit, sidebar blocks, full pages, starting layouts for new posts, headers, and footers
+* 128 patterns in eleven groups: openers, post lists, content sections, an article kit, a review kit, sidebar blocks, page layouts, full pages from four sample sites, starting layouts for new posts, headers, and footers
+* Full pages from four sample sites: an author's home and book page, a book review blog, a bookshop's home and staff picks, and a literary magazine. Pick one when you create a page, then change the words and pictures
 * A review kit for product and affiliate sites: verdicts, scores, pros and cons, spec and comparison tables, roundup picks, plan comparisons, and a disclosure note
 * Six designs, five extra color palettes, and four type presets. Every one uses the same two fonts and the same spacing, so switching never breaks a layout
 * Section and block styles for tinted, dark, accent, outlined, card, and elevated sections, checklists, and pill tags, so patterns stay core blocks only
@@ -64,6 +65,10 @@ Yes. Create a new post and open the pattern inserter. The Osmium: Post layouts g
 
 == Changelog ==
 
+= 0.4.0 =
+* A new pattern group, Full Pages, with six complete pages from four sample sites: an author's home and book page, a book review blog, a bookshop's home and staff picks, and a literary magazine. That makes 128 patterns. The pages come with ten book covers, three magazine covers, and two shelf images, all bundled with the theme.
+* The Theme URI now points to the theme's page at gauravtiwari.org instead of the GitHub repository.
+
 = 0.3.1 =
 * Headers, footers, and breadcrumbs now span the wide width, so they line up with wide content instead of sitting inside the reading column. This covers all nine headers and all nine footers. Footer text keeps its readable line length.
 
@@ -104,7 +109,7 @@ Pattern images
 Copyright 2026 Gaurav Tiwari
 License: GNU General Public License v2 or later
 License URL: http://www.gnu.org/licenses/gpl-2.0.html
-Source: generated for Osmium, the twelve abstract images in assets/images
+Source: generated for Osmium. Every image in assets/images was made for the theme: twelve abstract images, ten book covers, three magazine covers, and two bookshop shelves. The books, people, and publishers on them are fictional.
 
 Hedvig Letters Serif
 Copyright 2023 The Hedvig Letters Project Authors
