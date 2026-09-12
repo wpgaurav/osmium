@@ -4,7 +4,7 @@ Contributors: gauravtiwari
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.1
+Stable tag: 0.4.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, one-column, two-columns, right-sidebar, block-patterns, full-site-editing, style-variations, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, wide-blocks
@@ -64,6 +64,9 @@ Yes. In the editor sidebar, open the Template setting. Posts can use Post with c
 Yes. Create a new post and open the pattern inserter. The Osmium: Post layouts group holds starting structures for a review, a roundup, a how-to guide, a comparison, an interview, a news post, and an essay.
 
 == Changelog ==
+
+= 0.4.2 =
+* The phone menu's full-screen sheet has its padding back, so the close button and the links no longer touch the edge of the screen.
 
 = 0.4.0 =
 * A new pattern group, Full Pages, with six complete pages from four sample sites: an author's home and book page, a book review blog, a bookshop's home and staff picks, and a literary magazine. That makes 128 patterns. The pages come with ten book covers, three magazine covers, and two shelf images, all bundled with the theme.
