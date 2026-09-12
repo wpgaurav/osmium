@@ -1,5 +1,7 @@
 # Osmium
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/gauravtiwari)
+
 A content-first WordPress block theme for writers, publishers, and review sites.
 
 Osmium is built for people who write for a living and sell through what they write. The design lives in `theme.json` and the layout lives in patterns, so the theme ships no JavaScript of its own and about 8 KB of CSS. Reading comes first: the article measure, the type scale, and the spacing rhythm got more attention than the homepage.
@@ -71,6 +73,16 @@ Osmium bundles two typefaces under the SIL Open Font License, version 1.1.
 Their license text ships alongside the font files in `theme/assets/fonts`.
 
 The pattern images in `theme/assets/images` were generated for Osmium and are released under the same license as the theme. There are twelve abstract images. For the Full Pages patterns there are also ten book covers, three magazine covers, and two bookshop shelves. The books, people, and publishers on them are fictional.
+
+## Support This Project
+
+Osmium gives writers, publishers and review sites a free and open source block theme with 128 patterns, an 18-piece review kit built from core blocks and no JavaScript of its own. I'm working toward a 1.0 submission to the WordPress.org theme directory and every template has to pass axe-core with zero WCAG A and AA violations at desktop and mobile widths.
+
+If the review kit gave your posts verdicts, scores and comparison tables that keep working after a theme switch, you can buy me a coffee.
+
+<a href="https://buymeacoffee.com/gauravtiwari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="50"></a>
+
+Osmium is still in development, so a star on the repo helps and so does an issue for any contrast or keyboard problem, with the template and the design where you found it.
 
 ## License
 
