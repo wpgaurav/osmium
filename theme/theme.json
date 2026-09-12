@@ -179,8 +179,8 @@
 		"spacing": {
 			"blockGap": "var:preset|spacing|40",
 			"padding": {
-				"top": "0",
-				"bottom": "0",
+				"top": "0px",
+				"bottom": "0px",
 				"left": "clamp(1.25rem, 5vw, 2rem)",
 				"right": "clamp(1.25rem, 5vw, 2rem)"
 			}
